@@ -1,0 +1,7 @@
+{
+  "name": "web-auth-cognito",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

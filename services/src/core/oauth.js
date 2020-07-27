@@ -187,7 +187,7 @@ class OAuth {
     const session = this.session(accessToken, idToken, refreshToken);
 
     if (session.isValid()) {
-      // return { message: "Cannot update the token until it expires" };
+      return { message: "Cannot update the token until it expires" };
     }
 
     const { username } = await this._decodeToken(accessToken);
